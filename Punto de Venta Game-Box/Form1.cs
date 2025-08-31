@@ -16,5 +16,10 @@ namespace Punto_de_Venta_Game_Box
         {
             InitializeComponent();
         }
+
+        private void LUsuario_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
