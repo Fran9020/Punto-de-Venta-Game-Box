@@ -16,7 +16,7 @@ namespace Punto_de_Venta_Game_Box
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Login());
         }
     }
 }

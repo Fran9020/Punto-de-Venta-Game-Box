@@ -30,6 +30,7 @@
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.LUsuario = new System.Windows.Forms.Label();
+            this.LContraseña = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,11 +52,22 @@
             this.LUsuario.Text = "Usuario:";
             this.LUsuario.Click += new System.EventHandler(this.LUsuario_Click);
             // 
+            // LContraseña
+            // 
+            this.LContraseña.AutoSize = true;
+            this.LContraseña.Location = new System.Drawing.Point(300, 182);
+            this.LContraseña.Name = "LContraseña";
+            this.LContraseña.Size = new System.Drawing.Size(76, 16);
+            this.LContraseña.TabIndex = 2;
+            this.LContraseña.Text = "Contraseña";
+            this.LContraseña.Click += new System.EventHandler(this.LContraseña_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.LContraseña);
             this.Controls.Add(this.LUsuario);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
@@ -71,6 +83,7 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label LUsuario;
+        private System.Windows.Forms.Label LContraseña;
     }
 }
 

@@ -21,5 +21,12 @@ namespace Punto_de_Venta_Game_Box
         {
 
         }
+        
+        //vpos
+
+        private void LContraseña_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
