@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Punto_de_Venta_Game_Box
 {
-    public partial class Form2 : Form
+    public partial class InventarioForm : Form
     {
-        public Form2()
+        public InventarioForm()
         {
             InitializeComponent();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
