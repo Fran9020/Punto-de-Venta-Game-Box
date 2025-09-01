@@ -155,7 +155,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1326, 658);
+            this.ClientSize = new System.Drawing.Size(1182, 703);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.DgProductos);
             this.Controls.Add(this.TbCliente);
