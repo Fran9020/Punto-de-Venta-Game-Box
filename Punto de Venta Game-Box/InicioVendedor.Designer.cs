@@ -34,14 +34,14 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.LStock = new System.Windows.Forms.Label();
             this.LCliente = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.TbCliente = new System.Windows.Forms.TextBox();
+            this.DgProductos = new System.Windows.Forms.DataGridView();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PrecioUni = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Total = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DgProductos)).BeginInit();
             this.SuspendLayout();
             // 
             // LProducto
@@ -94,27 +94,27 @@
             this.LCliente.TabIndex = 5;
             this.LCliente.Text = "Cliente";
             // 
-            // textBox3
+            // TbCliente
             // 
-            this.textBox3.Location = new System.Drawing.Point(187, 123);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 6;
+            this.TbCliente.Location = new System.Drawing.Point(187, 123);
+            this.TbCliente.Name = "TbCliente";
+            this.TbCliente.Size = new System.Drawing.Size(100, 22);
+            this.TbCliente.TabIndex = 6;
             // 
-            // dataGridView1
+            // DgProductos
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.DgProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DgProductos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Nombre,
             this.Cantidad,
             this.PrecioUni,
             this.Total});
-            this.dataGridView1.Location = new System.Drawing.Point(123, 309);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(553, 150);
-            this.dataGridView1.TabIndex = 7;
+            this.DgProductos.Location = new System.Drawing.Point(123, 309);
+            this.DgProductos.Name = "DgProductos";
+            this.DgProductos.RowHeadersWidth = 51;
+            this.DgProductos.RowTemplate.Height = 24;
+            this.DgProductos.Size = new System.Drawing.Size(553, 150);
+            this.DgProductos.TabIndex = 7;
             // 
             // Nombre
             // 
@@ -157,8 +157,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1326, 658);
             this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.DgProductos);
+            this.Controls.Add(this.TbCliente);
             this.Controls.Add(this.LCliente);
             this.Controls.Add(this.LStock);
             this.Controls.Add(this.textBox2);
@@ -168,7 +168,7 @@
             this.Name = "InicioVendedor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "InicioVendedor";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DgProductos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -182,8 +182,8 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label LStock;
         private System.Windows.Forms.Label LCliente;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox TbCliente;
+        private System.Windows.Forms.DataGridView DgProductos;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn PrecioUni;
