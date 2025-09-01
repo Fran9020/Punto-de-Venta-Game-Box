@@ -1,6 +1,6 @@
 ﻿namespace Punto_de_Venta_Game_Box
 {
-    partial class Form1
+    partial class Login
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -31,6 +31,10 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.LUsuario = new System.Windows.Forms.Label();
             this.LContraseña = new System.Windows.Forms.Label();
+            this.TbUsuario = new System.Windows.Forms.TextBox();
+            this.TbContraseña = new System.Windows.Forms.TextBox();
+            this.BIngresar = new System.Windows.Forms.Button();
+            this.BCerrar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,17 +66,54 @@
             this.LContraseña.Text = "Contraseña";
             this.LContraseña.Click += new System.EventHandler(this.LContraseña_Click);
             // 
-            // Form1
+            // TbUsuario
+            // 
+            this.TbUsuario.Location = new System.Drawing.Point(303, 132);
+            this.TbUsuario.Name = "TbUsuario";
+            this.TbUsuario.Size = new System.Drawing.Size(100, 22);
+            this.TbUsuario.TabIndex = 3;
+            // 
+            // TbContraseña
+            // 
+            this.TbContraseña.Location = new System.Drawing.Point(303, 201);
+            this.TbContraseña.Name = "TbContraseña";
+            this.TbContraseña.Size = new System.Drawing.Size(100, 22);
+            this.TbContraseña.TabIndex = 4;
+            this.TbContraseña.TextChanged += new System.EventHandler(this.TbContraseña_TextChanged);
+            // 
+            // BIngresar
+            // 
+            this.BIngresar.Location = new System.Drawing.Point(303, 256);
+            this.BIngresar.Name = "BIngresar";
+            this.BIngresar.Size = new System.Drawing.Size(75, 23);
+            this.BIngresar.TabIndex = 5;
+            this.BIngresar.Text = "Ingresar";
+            this.BIngresar.UseVisualStyleBackColor = true;
+            // 
+            // BCerrar
+            // 
+            this.BCerrar.Location = new System.Drawing.Point(402, 256);
+            this.BCerrar.Name = "BCerrar";
+            this.BCerrar.Size = new System.Drawing.Size(75, 23);
+            this.BCerrar.TabIndex = 6;
+            this.BCerrar.Text = "Salir";
+            this.BCerrar.UseVisualStyleBackColor = true;
+            // 
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BCerrar);
+            this.Controls.Add(this.BIngresar);
+            this.Controls.Add(this.TbContraseña);
+            this.Controls.Add(this.TbUsuario);
             this.Controls.Add(this.LContraseña);
             this.Controls.Add(this.LUsuario);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
+            this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Inicio de Sesion";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -84,6 +125,10 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label LUsuario;
         private System.Windows.Forms.Label LContraseña;
+        private System.Windows.Forms.TextBox TbUsuario;
+        private System.Windows.Forms.TextBox TbContraseña;
+        private System.Windows.Forms.Button BIngresar;
+        private System.Windows.Forms.Button BCerrar;
     }
 }
 

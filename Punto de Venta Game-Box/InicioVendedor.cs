@@ -10,21 +10,12 @@ using System.Windows.Forms;
 
 namespace Punto_de_Venta_Game_Box
 {
-    public partial class Form1 : Form
+    public partial class InicioVendedor : Form
     {
-        public Form1()
+        public InicioVendedor()
         {
             InitializeComponent();
         }
 
-        private void LUsuario_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LContraseña_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
