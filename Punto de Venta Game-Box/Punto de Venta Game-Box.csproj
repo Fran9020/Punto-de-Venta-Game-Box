@@ -51,12 +51,15 @@
     </Compile>
     <Compile Include="InicioVendedor.Designer.cs">
       <DependentUpon>InicioVendedor.cs</DependentUpon>
+<<<<<<< HEAD
+=======
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+>>>>>>> dee03b3984891f9b55623d40c6c63f9a9c6e8bf1
     </Compile>
     <Compile Include="InventarioForm.cs">
       <SubType>Form</SubType>
@@ -64,16 +67,28 @@
     <Compile Include="InventarioForm.Designer.cs">
       <DependentUpon>InventarioForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="InicioVendedor.resx">
       <DependentUpon>InicioVendedor.cs</DependentUpon>
+<<<<<<< HEAD
+=======
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+>>>>>>> dee03b3984891f9b55623d40c6c63f9a9c6e8bf1
     </EmbeddedResource>
     <EmbeddedResource Include="InventarioForm.resx">
       <DependentUpon>InventarioForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
